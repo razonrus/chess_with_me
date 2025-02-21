@@ -3,7 +3,7 @@ name: Chess Position Visualization
 on:
   push:
     branches:
-      - main
+      - '**'
 
 jobs:
   visualize-chess-position:
